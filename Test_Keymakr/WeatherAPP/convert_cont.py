@@ -57,7 +57,7 @@ def main_convert(city):
     return region_country_dict
 
 if __name__=='__main__':
-    DEEPL_API_KEY = os.getenv("DEEPL_API_KEY")  # Убедитесь, что API-ключ загружен
+    DEEPL_API_KEY = os.getenv("DEEPL_API_KEY")
     print(os.getenv("DEEPL_API_KEY"))
     if not DEEPL_API_KEY:
         raise ValueError("API-ключ DeepL не найден в переменных окружения")
@@ -66,5 +66,5 @@ if __name__=='__main__':
 
     translated_country = translator.translate_text("Україна", source_lang="UK", target_lang="EN-US")
 
-    print(translated_country.text)  # Теперь корректно выводит "Ukraine"
+
 

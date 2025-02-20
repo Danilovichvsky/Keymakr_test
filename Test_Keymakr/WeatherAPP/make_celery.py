@@ -41,4 +41,3 @@ def main():
     region = get_continent_by_country(country)
     print(region)
 
-main()
