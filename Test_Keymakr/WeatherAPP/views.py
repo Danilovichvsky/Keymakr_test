@@ -38,7 +38,6 @@ class PostWeatherTaskViewSet(viewsets.ViewSet):
     def create(self, request):
         task_id = uuid.uuid4()
         cities = request.data.get("city", [])
-        print(cities)
         WeatherTask.objects.create(task_id=task_id)
         created_task = WeatherTask.objects.get(task_id=task_id)
         created_task.status = "running"

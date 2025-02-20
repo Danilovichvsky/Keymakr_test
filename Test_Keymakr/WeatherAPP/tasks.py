@@ -3,6 +3,7 @@ import json
 import os
 import time
 
+import deepl
 import requests
 from celery import shared_task
 from dotenv import load_dotenv
@@ -29,12 +30,12 @@ def process_weather_data(self, cities, task_id):
         for city in cities:
             normalized_city = normalize_city_name(city)
             if not normalized_city:
-                logger.info(f"Помилка при нормалізації міста {city}")
+                logger.info(f"Error with normalization for {city}")
                 continue
 
             weather_data = fetch_weather_data(normalized_city)
             if not weather_data or not validate_weather_data(weather_data):
-                logger.info(f"Помилка виникла при діставання даних про погоду для міста {city}")
+                logger.info(f"error with validation for or with getting data about weather {city}")
                 continue
 
             # Get the region for the city
@@ -57,6 +58,7 @@ def process_weather_data(self, cities, task_id):
                 logger.error(f"Task {task_id} not found in the database")
             except Exception as e:
                 logger.error(f"Error updating task {task_id} status: {e}")
+        logger.info('Results is: ',results)
         save_results(task_id, results)
         return results
     except Exception as e:
@@ -66,13 +68,28 @@ def process_weather_data(self, cities, task_id):
 
 
 def normalize_city_name(city):
+    DEEPL_API_KEY = os.getenv("DEEPL_API_KEY")
     known_cities = ["Kyiv", "London", "New York", "Tokyo", "Lviv"]
+
     matched_city, score = process.extractOne(city, known_cities)
-    if score > 80:
+    if score > 50:
         logger.info(f"Normalized {city} to {matched_city}")
         return matched_city
-    else:
-        logger.warning(f"Could not normalize {city}")
+
+    try:
+        translator = deepl.Translator(DEEPL_API_KEY)
+        translated_city = translator.translate_text(city, source_lang="UK", target_lang="EN-US").text
+        logger.info(f"Translated {city} to {translated_city}")
+
+        matched_city, score = process.extractOne(translated_city, known_cities)
+        if score > 50:
+            logger.info(f"Normalized {translated_city} to {matched_city}")
+            return matched_city
+        else:
+            logger.warning(f"Could not normalize {city} (translated to {translated_city})")
+            return None
+    except Exception as ex:
+        logger.warning(f"Could not normalize {city}: {ex}")
         return None
 
 
