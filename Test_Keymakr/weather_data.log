@@ -1,0 +1,834 @@
+"POST /weather/ HTTP/1.1" 200 50
+Cities to process: ['Kyiv', 'Lviv', 'London']
+Normalized Kyiv to Kyiv
+Error fetching weather data for Kyiv: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=Kyiv&appid=809d937e98b981cc1004e2d6ddba8926&units=metric&lang=ru
+Normalized Lviv to Lviv
+Error fetching weather data for Lviv: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=Lviv&appid=809d937e98b981cc1004e2d6ddba8926&units=metric&lang=ru
+Normalized London to London
+Error fetching weather data for London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=809d937e98b981cc1004e2d6ddba8926&units=metric&lang=ru
+Watching for file changes with StatReloader
+"POST /weather/ HTTP/1.1" 200 50
+Cities to process: ['Kyiv', 'Lviv', 'London']
+Normalized Kyiv to Kyiv
+Normalized Lviv to Lviv
+Normalized London to London
+Saved results for Other in C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\weather_data\Other\task_7f47eeab-64b1-41e9-a005-461a38eefbe4.json
+"GET /results/ HTTP/1.1" 200 5459
+"GET /results/7f47eeab-64b1-41e9-a005-461a38eefbe4 HTTP/1.1" 301 0
+Not Found: /results/7f47eeab-64b1-41e9-a005-461a38eefbe4/
+"GET /results/7f47eeab-64b1-41e9-a005-461a38eefbe4/ HTTP/1.1" 404 5863
+"POST /weather/ HTTP/1.1" 200 50
+Cities to process: ['Kyiv', 'Lviv', 'London']
+Normalized Kyiv to Kyiv
+Normalized Lviv to Lviv
+Normalized London to London
+Saved results for Other in C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\weather_data\Other\task_c917510e-6c67-4363-92a1-070543384fc1.json
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /weather/ HTTP/1.1" 200 50
+Cities to process: ['Kyiv', 'Lviv', 'London']
+Normalized Kyiv to Kyiv
+Normalized Lviv to Lviv
+Normalized London to London
+Saved results for Other in C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\weather_data\Other\task_0784aa1b-c3a0-4413-8d05-7f863b9e140c.json
+Watching for file changes with StatReloader
+"POST /weather/ HTTP/1.1" 200 50
+Cities to process: ['Kyiv', 'Lviv', 'London']
+Normalized Kyiv to Kyiv
+weather
+Normalized Lviv to Lviv
+weather
+Normalized London to London
+weather
+Saved results for Other in C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\weather_data\Other\task_ce480b76-45d2-4935-bc3e-ac485ba16c33.json
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /weather/ HTTP/1.1" 200 50
+Cities to process: ['Kyiv', 'Lviv', 'London']
+Normalized Kyiv to Kyiv
+weather
+Normalized Lviv to Lviv
+weather
+Normalized London to London
+weather
+Saved results for Other in C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\weather_data\Other\task_8655b121-f1bc-4a43-852c-9165b46bc888.json
+"POST /weather/ HTTP/1.1" 200 50
+Cities to process: ['Kyiv', 'Lviv', 'London']
+Normalized Kyiv to Kyiv
+Normalized Lviv to Lviv
+Normalized London to London
+Saved results for Other in C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\weather_data\Other\task_34f6fd80-bc59-4720-ac55-2bf6e5c31c11.json
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /hello/
+"GET /hello/ HTTP/1.1" 404 6729
+"GET /results/ HTTP/1.1" 200 5459
+"GET /results/ HTTP/1.1" 200 5459
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /weather/ HTTP/1.1" 200 50
+Cities to process: ['Kyiv', 'Lviv', 'London']
+Normalized Kyiv to Kyiv
+Normalized Lviv to Lviv
+Normalized London to London
+Saved results for Other in C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\weather_data\Other\task_bb0eb1e8-d4fc-4811-ab3d-74f65cc73e53.json
+Watching for file changes with StatReloader
+"POST /weather/ HTTP/1.1" 200 50
+Cities to process: ['Kyiv', 'Lviv', 'London']
+Normalized Kyiv to Kyiv
+Normalized Lviv to Lviv
+Normalized London to London
+Saved results for Other in C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\weather_data\Other\task_d0a4d9ea-bd83-436b-8330-7751152cdf68.json
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /weather/ HTTP/1.1" 200 50
+Cities to process: ['Kyiv', 'Lviv', 'London']
+Normalized Kyiv to Kyiv
+Normalized Lviv to Lviv
+Normalized London to London
+Saved results for Other in C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\weather_data\Other\task_c3037045-aeda-42cf-8d06-de2b887f91d4.json
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /weather/ HTTP/1.1" 200 50
+Cities to process: ['Kyiv', 'Lviv', 'London']
+Normalized Kyiv to Kyiv
+Normalized Lviv to Lviv
+Normalized London to London
+Saved results for Other in C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\weather_data\Other\task_b1b558aa-a796-4e9f-b6e2-eba263879331.json
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"POST /weather/ HTTP/1.1" 200 50
+Cities to process: ['Kyiv', 'Lviv', 'London']
+Normalized Kyiv to Kyiv
+Normalized Lviv to Lviv
+Normalized London to London
+Saved results for Other in C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\weather_data\Other\task_98b855d0-8170-40ae-ae8f-bb5e1228dcba.json
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /weather/ HTTP/1.1" 200 50
+Cities to process: ['Kyiv', 'Lviv', 'London']
+Normalized Kyiv to Kyiv
+Normalized Lviv to Lviv
+Normalized London to London
+Saved results for Other in C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\weather_data\Other\task_06905539-4962-4119-a50c-67d837f4739a.json
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /weather/ HTTP/1.1" 200 50
+Cities to process: ['Kyiv', 'Lviv', 'London']
+Normalized Kyiv to Kyiv
+Normalized Lviv to Lviv
+Normalized London to London
+Saved results for Other in C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\weather_data\Other\task_202ac82d-214f-477d-b420-f5ea83656e4a.json
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /weather/ HTTP/1.1" 200 50
+Cities to process: ['Kyiv', 'Lviv', 'London']
+Normalized Kyiv to Kyiv
+Normalized Lviv to Lviv
+Normalized London to London
+Saved results for Other in C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\weather_data\Other\task_a68189de-7fa0-4379-aeb4-4a44132a869a.json
+"POST /weather/ HTTP/1.1" 200 50
+Cities to process: ['Kyiv', 'Lviv', 'London']
+Normalized Kyiv to Kyiv
+wtather: {'coord': {'lon': 30.5167, 'lat': 50.4333}, 'weather': [{'id': 804, 'main': 'Clouds', 'description': 'пасмурно', 'icon': '04d'}], 'base': 'stations', 'main': {'temp': -2.93, 'feels_like': -2.93, 'temp_min': -2.93, 'temp_max': -2.93, 'pressure': 1035, 'humidity': 72, 'sea_level': 1035, 'grnd_level': 1018}, 'visibility': 10000, 'wind': {'speed': 0.89, 'deg': 27, 'gust': 3.13}, 'clouds': {'all': 100}, 'dt': 1740057078, 'sys': {'type': 2, 'id': 2003742, 'country': 'UA', 'sunrise': 1740027612, 'sunset': 1740065007}, 'timezone': 7200, 'id': 703448, 'name': 'Киев', 'cod': 200}
+Normalized Lviv to Lviv
+wtather: {'coord': {'lon': 24.0232, 'lat': 49.8383}, 'weather': [{'id': 801, 'main': 'Clouds', 'description': 'небольшая облачность', 'icon': '02d'}], 'base': 'stations', 'main': {'temp': -1.3, 'feels_like': -4.06, 'temp_min': -1.3, 'temp_max': -1.3, 'pressure': 1036, 'humidity': 43, 'sea_level': 1036, 'grnd_level': 997}, 'visibility': 10000, 'wind': {'speed': 2.07, 'deg': 60, 'gust': 1.62}, 'clouds': {'all': 21}, 'dt': 1740056980, 'sys': {'country': 'UA', 'sunrise': 1740029105, 'sunset': 1740066632}, 'timezone': 7200, 'id': 702550, 'name': 'Львов', 'cod': 200}
+Normalized London to London
+wtather: {'coord': {'lon': -0.1257, 'lat': 51.5085}, 'weather': [{'id': 500, 'main': 'Rain', 'description': 'небольшой дождь', 'icon': '10d'}], 'base': 'stations', 'main': {'temp': 12.48, 'feels_like': 12.13, 'temp_min': 11.68, 'temp_max': 12.92, 'pressure': 1014, 'humidity': 90, 'sea_level': 1014, 'grnd_level': 1009}, 'visibility': 10000, 'wind': {'speed': 5.66, 'deg': 200}, 'rain': {'1h': 0.34}, 'clouds': {'all': 100}, 'dt': 1740057052, 'sys': {'type': 2, 'id': 2075535, 'country': 'GB', 'sunrise': 1740035077, 'sunset': 1740072250}, 'timezone': 0, 'id': 2643743, 'name': 'Лондон', 'cod': 200}
+Saved results for Other in C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\weather_data\Other\task_9f84992b-3d52-4f83-8a37-fcad0082721c.json
+"POST /weather/ HTTP/1.1" 200 50
+Cities to process: ['Kyiv', 'Lviv', 'London']
+Normalized Kyiv to Kyiv
+wtather: {'coord': {'lon': 30.5167, 'lat': 50.4333}, 'weather': [{'id': 804, 'main': 'Clouds', 'description': 'пасмурно', 'icon': '04d'}], 'base': 'stations', 'main': {'temp': -2.93, 'feels_like': -2.93, 'temp_min': -2.93, 'temp_max': -2.93, 'pressure': 1035, 'humidity': 72, 'sea_level': 1035, 'grnd_level': 1018}, 'visibility': 10000, 'wind': {'speed': 0.89, 'deg': 27, 'gust': 3.13}, 'clouds': {'all': 100}, 'dt': 1740057078, 'sys': {'type': 2, 'id': 2003742, 'country': 'UA', 'sunrise': 1740027612, 'sunset': 1740065007}, 'timezone': 7200, 'id': 703448, 'name': 'Киев', 'cod': 200}
+Normalized Lviv to Lviv
+wtather: {'coord': {'lon': 24.0232, 'lat': 49.8383}, 'weather': [{'id': 801, 'main': 'Clouds', 'description': 'небольшая облачность', 'icon': '02d'}], 'base': 'stations', 'main': {'temp': -1.3, 'feels_like': -4.06, 'temp_min': -1.3, 'temp_max': -1.3, 'pressure': 1036, 'humidity': 43, 'sea_level': 1036, 'grnd_level': 997}, 'visibility': 10000, 'wind': {'speed': 2.07, 'deg': 60, 'gust': 1.62}, 'clouds': {'all': 21}, 'dt': 1740056980, 'sys': {'country': 'UA', 'sunrise': 1740029105, 'sunset': 1740066632}, 'timezone': 7200, 'id': 702550, 'name': 'Львов', 'cod': 200}
+Normalized London to London
+wtather: {'coord': {'lon': -0.1257, 'lat': 51.5085}, 'weather': [{'id': 500, 'main': 'Rain', 'description': 'небольшой дождь', 'icon': '10d'}], 'base': 'stations', 'main': {'temp': 12.48, 'feels_like': 12.13, 'temp_min': 11.68, 'temp_max': 12.92, 'pressure': 1014, 'humidity': 90, 'sea_level': 1014, 'grnd_level': 1009}, 'visibility': 10000, 'wind': {'speed': 5.66, 'deg': 200}, 'rain': {'1h': 0.34}, 'clouds': {'all': 100}, 'dt': 1740057052, 'sys': {'type': 2, 'id': 2075535, 'country': 'GB', 'sunrise': 1740035077, 'sunset': 1740072250}, 'timezone': 0, 'id': 2643743, 'name': 'Лондон', 'cod': 200}
+Saved results for Other in C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\weather_data\Other\task_59543074-b102-46fb-8226-f671950e5a4d.json
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /weather/ HTTP/1.1" 200 50
+Cities to process: ['Kyiv', 'Lviv', 'London']
+Normalized Kyiv to Kyiv
+wtather: {'coord': {'lon': 30.5167, 'lat': 50.4333}, 'weather': [{'id': 804, 'main': 'Clouds', 'description': 'пасмурно', 'icon': '04d'}], 'base': 'stations', 'main': {'temp': -2.93, 'feels_like': -2.93, 'temp_min': -2.93, 'temp_max': -2.93, 'pressure': 1035, 'humidity': 72, 'sea_level': 1035, 'grnd_level': 1018}, 'visibility': 10000, 'wind': {'speed': 0.89, 'deg': 27, 'gust': 3.13}, 'clouds': {'all': 100}, 'dt': 1740057078, 'sys': {'type': 2, 'id': 2003742, 'country': 'UA', 'sunrise': 1740027612, 'sunset': 1740065007}, 'timezone': 7200, 'id': 703448, 'name': 'Киев', 'cod': 200}
+Normalized Lviv to Lviv
+wtather: {'coord': {'lon': 24.0232, 'lat': 49.8383}, 'weather': [{'id': 801, 'main': 'Clouds', 'description': 'небольшая облачность', 'icon': '02d'}], 'base': 'stations', 'main': {'temp': -1.3, 'feels_like': -4.06, 'temp_min': -1.3, 'temp_max': -1.3, 'pressure': 1036, 'humidity': 43, 'sea_level': 1036, 'grnd_level': 997}, 'visibility': 10000, 'wind': {'speed': 2.07, 'deg': 60, 'gust': 1.62}, 'clouds': {'all': 21}, 'dt': 1740056980, 'sys': {'country': 'UA', 'sunrise': 1740029105, 'sunset': 1740066632}, 'timezone': 7200, 'id': 702550, 'name': 'Львов', 'cod': 200}
+Normalized London to London
+wtather: {'coord': {'lon': -0.1257, 'lat': 51.5085}, 'weather': [{'id': 500, 'main': 'Rain', 'description': 'небольшой дождь', 'icon': '10d'}], 'base': 'stations', 'main': {'temp': 12.48, 'feels_like': 12.13, 'temp_min': 11.68, 'temp_max': 12.92, 'pressure': 1014, 'humidity': 90, 'sea_level': 1014, 'grnd_level': 1009}, 'visibility': 10000, 'wind': {'speed': 5.66, 'deg': 200}, 'rain': {'1h': 0.34}, 'clouds': {'all': 100}, 'dt': 1740057052, 'sys': {'type': 2, 'id': 2075535, 'country': 'GB', 'sunrise': 1740035077, 'sunset': 1740072250}, 'timezone': 0, 'id': 2643743, 'name': 'Лондон', 'cod': 200}
+Saved results for Other in C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\weather_data\Other\task_a66e69ba-011f-4477-8c58-c982b7fd274d.json
+result is {'Europe': [], 'America': [], 'Asia': [], 'Other': [{'city': 'Kyiv', 'temperature': -2.93, 'description': None}, {'city': 'Lviv', 'temperature': -1.3, 'description': None}, {'city': 'London', 'temperature': 12.48, 'description': None}]}
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /weather/ HTTP/1.1" 200 50
+Cities to process: ['Kyiv', 'Lviv', 'London']
+Normalized Kyiv to Kyiv
+wtather: {'coord': {'lon': 30.5167, 'lat': 50.4333}, 'weather': [{'id': 804, 'main': 'Clouds', 'description': 'пасмурно', 'icon': '04d'}], 'base': 'stations', 'main': {'temp': -2.93, 'feels_like': -2.93, 'temp_min': -2.93, 'temp_max': -2.93, 'pressure': 1035, 'humidity': 72, 'sea_level': 1035, 'grnd_level': 1018}, 'visibility': 10000, 'wind': {'speed': 0.89, 'deg': 27, 'gust': 3.13}, 'clouds': {'all': 100}, 'dt': 1740057078, 'sys': {'type': 2, 'id': 2003742, 'country': 'UA', 'sunrise': 1740027612, 'sunset': 1740065007}, 'timezone': 7200, 'id': 703448, 'name': 'Киев', 'cod': 200}
+region is Other
+Normalized Lviv to Lviv
+wtather: {'coord': {'lon': 24.0232, 'lat': 49.8383}, 'weather': [{'id': 801, 'main': 'Clouds', 'description': 'небольшая облачность', 'icon': '02d'}], 'base': 'stations', 'main': {'temp': -1.3, 'feels_like': -4.06, 'temp_min': -1.3, 'temp_max': -1.3, 'pressure': 1036, 'humidity': 43, 'sea_level': 1036, 'grnd_level': 997}, 'visibility': 10000, 'wind': {'speed': 2.07, 'deg': 60, 'gust': 1.62}, 'clouds': {'all': 21}, 'dt': 1740056980, 'sys': {'country': 'UA', 'sunrise': 1740029105, 'sunset': 1740066632}, 'timezone': 7200, 'id': 702550, 'name': 'Львов', 'cod': 200}
+region is Other
+Normalized London to London
+wtather: {'coord': {'lon': -0.1257, 'lat': 51.5085}, 'weather': [{'id': 500, 'main': 'Rain', 'description': 'небольшой дождь', 'icon': '10d'}], 'base': 'stations', 'main': {'temp': 12.48, 'feels_like': 12.13, 'temp_min': 11.68, 'temp_max': 12.92, 'pressure': 1014, 'humidity': 90, 'sea_level': 1014, 'grnd_level': 1009}, 'visibility': 10000, 'wind': {'speed': 5.66, 'deg': 200}, 'rain': {'1h': 0.34}, 'clouds': {'all': 100}, 'dt': 1740057052, 'sys': {'type': 2, 'id': 2075535, 'country': 'GB', 'sunrise': 1740035077, 'sunset': 1740072250}, 'timezone': 0, 'id': 2643743, 'name': 'Лондон', 'cod': 200}
+region is Other
+Saved results for Other in C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\weather_data\Other\task_859907bf-73e1-4ce8-8f31-e79a82724c68.json
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /weather/ HTTP/1.1" 200 50
+Cities to process: ['Kyiv', 'Lviv', 'London']
+Normalized Kyiv to Kyiv
+wtather: {'coord': {'lon': 30.5167, 'lat': 50.4333}, 'weather': [{'id': 804, 'main': 'Clouds', 'description': 'пасмурно', 'icon': '04d'}], 'base': 'stations', 'main': {'temp': -3.49, 'feels_like': -5.44, 'temp_min': -3.49, 'temp_max': -3.49, 'pressure': 1035, 'humidity': 72, 'sea_level': 1035, 'grnd_level': 1018}, 'visibility': 10000, 'wind': {'speed': 1.34, 'deg': 48, 'gust': 3.13}, 'clouds': {'all': 100}, 'dt': 1740058350, 'sys': {'type': 2, 'id': 2003742, 'country': 'UA', 'sunrise': 1740027612, 'sunset': 1740065007}, 'timezone': 7200, 'id': 703448, 'name': 'Киев', 'cod': 200}
+region is Other
+Normalized Lviv to Lviv
+wtather: {'coord': {'lon': 24.0232, 'lat': 49.8383}, 'weather': [{'id': 802, 'main': 'Clouds', 'description': 'переменная облачность', 'icon': '03d'}], 'base': 'stations', 'main': {'temp': -1.44, 'feels_like': -4.46, 'temp_min': -1.44, 'temp_max': -1.44, 'pressure': 1036, 'humidity': 41, 'sea_level': 1036, 'grnd_level': 997}, 'visibility': 10000, 'wind': {'speed': 2.26, 'deg': 61, 'gust': 1.92}, 'clouds': {'all': 36}, 'dt': 1740058357, 'sys': {'country': 'UA', 'sunrise': 1740029105, 'sunset': 1740066632}, 'timezone': 7200, 'id': 702550, 'name': 'Львов', 'cod': 200}
+region is Other
+Normalized London to London
+wtather: {'coord': {'lon': -0.1257, 'lat': 51.5085}, 'weather': [{'id': 804, 'main': 'Clouds', 'description': 'пасмурно', 'icon': '04d'}], 'base': 'stations', 'main': {'temp': 12.51, 'feels_like': 12.17, 'temp_min': 11.68, 'temp_max': 12.92, 'pressure': 1014, 'humidity': 90, 'sea_level': 1014, 'grnd_level': 1009}, 'visibility': 10000, 'wind': {'speed': 5.66, 'deg': 200}, 'clouds': {'all': 100}, 'dt': 1740058117, 'sys': {'type': 2, 'id': 2075535, 'country': 'GB', 'sunrise': 1740035077, 'sunset': 1740072250}, 'timezone': 0, 'id': 2643743, 'name': 'Лондон', 'cod': 200}
+region is Other
+Saved results for Other in C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\weather_data\Other\task_983fee8c-0e9b-4856-9eec-f89bf1e267a0.json
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /weather/
+Traceback (most recent call last):
+  File "C:\Users\Данил\PycharmProjects\Test_keymakr\keymakr_venv\Lib\site-packages\kombu\utils\functional.py", line 32, in __call__
+    return self.__value__
+           ^^^^^^^^^^^^^^
+AttributeError: 'ChannelPromise' object has no attribute '__value__'. Did you mean: '__call__'?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Данил\PycharmProjects\Test_keymakr\keymakr_venv\Lib\site-packages\kombu\transport\virtual\base.py", line 951, in create_channel
+    return self._avail_channels.pop()
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^
+IndexError: pop from empty list
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Данил\PycharmProjects\Test_keymakr\keymakr_venv\Lib\site-packages\kombu\connection.py", line 472, in _reraise_as_library_errors
+    yield
+  File "C:\Users\Данил\PycharmProjects\Test_keymakr\keymakr_venv\Lib\site-packages\kombu\connection.py", line 459, in _ensure_connection
+    return retry_over_time(
+        self._connection_factory, self.recoverable_connection_errors,
+    ...<2 lines>...
+        callback, timeout=timeout
+    )
+  File "C:\Users\Данил\PycharmProjects\Test_keymakr\keymakr_venv\Lib\site-packages\kombu\utils\functional.py", line 318, in retry_over_time
+    return fun(*args, **kwargs)
+  File "C:\Users\Данил\PycharmProjects\Test_keymakr\keymakr_venv\Lib\site-packages\kombu\connection.py", line 934, in _connection_factory
+    self._connection = self._establish_connection()
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Данил\PycharmProjects\Test_keymakr\keymakr_venv\Lib\site-packages\kombu\connection.py", line 860, in _establish_connection
+    conn = self.transport.establish_connection()
+  File "C:\Users\Данил\PycharmProjects\Test_keymakr\keymakr_venv\Lib\site-packages\kombu\transport\virtual\base.py", line 975, in establish_connection
+    self._avail_channels.append(self.create_channel(self))
+                                ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Данил\PycharmProjects\Test_keymakr\keymakr_venv\Lib\site-packages\kombu\transport\virtual\base.py", line 953, in create_channel
+    channel = self.Channel(connection)
+  File "C:\Users\Данил\PycharmProjects\Test_keymakr\keymakr_venv\Lib\site-packages\kombu\transport\redis.py", line 744, in __init__
+    self.client.ping()
+    ~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Данил\PycharmProjects\Test_keymakr\keymakr_venv\Lib\site-packages\redis\commands\core.py", line 1212, in ping
+    return self.execute_command("PING", **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Данил\PycharmProjects\Test_keymakr\keymakr_venv\Lib\site-packages\redis\client.py", line 559, in execute_command
+    return self._execute_command(*args, **options)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Данил\PycharmProjects\Test_keymakr\keymakr_venv\Lib\site-packages\redis\client.py", line 567, in _execute_command
+    return conn.retry.call_with_retry(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        lambda: self._send_command_parse_response(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        lambda error: self._disconnect_raise(conn, error),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Данил\PycharmProjects\Test_keymakr\keymakr_venv\Lib\site-packages\redis\retry.py", line 62, in call_with_retry
+    return do()
+  File "C:\Users\Данил\PycharmProjects\Test_keymakr\keymakr_venv\Lib\site-packages\redis\client.py", line 568, in <lambda>
+    lambda: self._send_command_parse_response(
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        conn, command_name, *args, **options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ),
+    ^
+  File "C:\Users\Данил\PycharmProjects\Test_keymakr\keymakr_venv\Lib\site-packages\redis\client.py", line 542, in _send_command_parse_response
+    return self.parse_response(conn, command_name, **options)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Данил\PycharmProjects\Test_keymakr\keymakr_venv\Lib\site-packages\redis\client.py", line 584, in parse_response
+    response = connection.read_response()
+  File "C:\Users\Данил\PycharmProjects\Test_keymakr\keymakr_venv\Lib\site-packages\redis\connection.py", line 616, in read_response
+    raise response
+redis.exceptions.ResponseError: MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Данил\PycharmProjects\Test_keymakr\keymakr_venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Данил\PycharmProjects\Test_keymakr\keymakr_venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Данил\PycharmProjects\Test_keymakr\keymakr_venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Данил\PycharmProjects\Test_keymakr\keymakr_venv\Lib\site-packages\rest_framework\viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Данил\PycharmProjects\Test_keymakr\keymakr_venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Данил\PycharmProjects\Test_keymakr\keymakr_venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\Данил\PycharmProjects\Test_keymakr\keymakr_venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Данил\PycharmProjects\Test_keymakr\keymakr_venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\views.py", line 42, in create
+    process_weather_data.delay(cities, task_id)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Данил\PycharmProjects\Test_keymakr\keymakr_venv\Lib\site-packages\celery\app\task.py", line 444, in delay
+    return self.apply_async(args, kwargs)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\Данил\PycharmProjects\Test_keymakr\keymakr_venv\Lib\site-packages\celery\app\task.py", line 594, in apply_async
+    return app.send_task(
+           ~~~~~~~~~~~~~^
+        self.name, args, kwargs, task_id=task_id, producer=producer,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        **options
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Данил\PycharmProjects\Test_keymakr\keymakr_venv\Lib\site-packages\celery\app\base.py", line 801, in send_task
+    amqp.send_task_message(P, name, message, **options)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Данил\PycharmProjects\Test_keymakr\keymakr_venv\Lib\site-packages\celery\app\amqp.py", line 518, in send_task_message
+    ret = producer.publish(
+        body,
+    ...<7 lines>...
+        **properties
+    )
+  File "C:\Users\Данил\PycharmProjects\Test_keymakr\keymakr_venv\Lib\site-packages\kombu\messaging.py", line 186, in publish
+    return _publish(
+        body, priority, content_type, content_encoding,
+        headers, properties, routing_key, mandatory, immediate,
+        exchange_name, declare, timeout
+    )
+  File "C:\Users\Данил\PycharmProjects\Test_keymakr\keymakr_venv\Lib\site-packages\kombu\connection.py", line 556, in _ensured
+    return fun(*args, **kwargs)
+  File "C:\Users\Данил\PycharmProjects\Test_keymakr\keymakr_venv\Lib\site-packages\kombu\messaging.py", line 195, in _publish
+    channel = self.channel
+              ^^^^^^^^^^^^
+  File "C:\Users\Данил\PycharmProjects\Test_keymakr\keymakr_venv\Lib\site-packages\kombu\messaging.py", line 218, in _get_channel
+    channel = self._channel = channel()
+                              ~~~~~~~^^
+  File "C:\Users\Данил\PycharmProjects\Test_keymakr\keymakr_venv\Lib\site-packages\kombu\utils\functional.py", line 34, in __call__
+    value = self.__value__ = self.__contract__()
+                             ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Данил\PycharmProjects\Test_keymakr\keymakr_venv\Lib\site-packages\kombu\messaging.py", line 234, in <lambda>
+    channel = ChannelPromise(lambda: connection.default_channel)
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Данил\PycharmProjects\Test_keymakr\keymakr_venv\Lib\site-packages\kombu\connection.py", line 953, in default_channel
+    self._ensure_connection(**conn_opts)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Данил\PycharmProjects\Test_keymakr\keymakr_venv\Lib\site-packages\kombu\connection.py", line 458, in _ensure_connection
+    with ctx():
+         ~~~^^
+  File "C:\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Данил\PycharmProjects\Test_keymakr\keymakr_venv\Lib\site-packages\kombu\connection.py", line 476, in _reraise_as_library_errors
+    raise ConnectionError(str(exc)) from exc
+kombu.exceptions.OperationalError: MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error.
+"POST /weather/ HTTP/1.1" 500 275426
+Watching for file changes with StatReloader
+"POST /weather/ HTTP/1.1" 200 50
+Cities to process: ['Kyiv', 'Lviv', 'London']
+Normalized Kyiv to Kyiv
+wtather: {'coord': {'lon': 30.5167, 'lat': 50.4333}, 'weather': [{'id': 804, 'main': 'Clouds', 'description': 'пасмурно', 'icon': '04d'}], 'base': 'stations', 'main': {'temp': -4.04, 'feels_like': -4.04, 'temp_min': -4.04, 'temp_max': -4.04, 'pressure': 1036, 'humidity': 70, 'sea_level': 1036, 'grnd_level': 1018}, 'visibility': 10000, 'wind': {'speed': 0.45, 'deg': 0, 'gust': 2.68}, 'clouds': {'all': 96}, 'dt': 1740063243, 'sys': {'type': 2, 'id': 2003742, 'country': 'UA', 'sunrise': 1740027612, 'sunset': 1740065007}, 'timezone': 7200, 'id': 703448, 'name': 'Киев', 'cod': 200}
+Error processing task 97b2f4d3-7ad1-4600-b7f3-95f8067f4f25: [Errno 2] No such file or directory: 'continent.json'
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /weather/ HTTP/1.1" 200 50
+Cities to process: ['Kyiv', 'Lviv', 'London']
+Normalized Kyiv to Kyiv
+wtather: {'coord': {'lon': 30.5167, 'lat': 50.4333}, 'weather': [{'id': 804, 'main': 'Clouds', 'description': 'пасмурно', 'icon': '04d'}], 'base': 'stations', 'main': {'temp': -4.04, 'feels_like': -4.04, 'temp_min': -4.04, 'temp_max': -4.04, 'pressure': 1036, 'humidity': 70, 'sea_level': 1036, 'grnd_level': 1018}, 'visibility': 10000, 'wind': {'speed': 0.45, 'deg': 348, 'gust': 2.24}, 'clouds': {'all': 96}, 'dt': 1740064215, 'sys': {'type': 2, 'id': 2003742, 'country': 'UA', 'sunrise': 1740027612, 'sunset': 1740065007}, 'timezone': 7200, 'id': 703448, 'name': 'Киев', 'cod': 200}
+region is not found
+Error processing task c3e7298c-6b63-413d-9c1b-1ba4d6032cec: 'not found'
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /weather/ HTTP/1.1" 200 50
+Cities to process: ['Kyiv', 'Lviv', 'London']
+Normalized Kyiv to Kyiv
+wtather: {'coord': {'lon': 30.5167, 'lat': 50.4333}, 'weather': [{'id': 804, 'main': 'Clouds', 'description': 'пасмурно', 'icon': '04d'}], 'base': 'stations', 'main': {'temp': -4.04, 'feels_like': -4.04, 'temp_min': -4.04, 'temp_max': -4.04, 'pressure': 1036, 'humidity': 70, 'sea_level': 1036, 'grnd_level': 1018}, 'visibility': 10000, 'wind': {'speed': 0.45, 'deg': 348, 'gust': 2.24}, 'clouds': {'all': 96}, 'dt': 1740064215, 'sys': {'type': 2, 'id': 2003742, 'country': 'UA', 'sunrise': 1740027612, 'sunset': 1740065007}, 'timezone': 7200, 'id': 703448, 'name': 'Киев', 'cod': 200}
+region is not found
+Error processing task 11c5ab42-ba99-4b07-a80c-b239bd0825e7: 'not found'
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /weather/ HTTP/1.1" 200 50
+Cities to process: ['Kyiv', 'Lviv', 'London']
+Normalized Kyiv to Kyiv
+wtather: {'coord': {'lon': 30.5167, 'lat': 50.4333}, 'weather': [{'id': 804, 'main': 'Clouds', 'description': 'пасмурно', 'icon': '04d'}], 'base': 'stations', 'main': {'temp': -4.04, 'feels_like': -4.04, 'temp_min': -4.04, 'temp_max': -4.04, 'pressure': 1036, 'humidity': 70, 'sea_level': 1036, 'grnd_level': 1018}, 'visibility': 10000, 'wind': {'speed': 0.45, 'deg': 348, 'gust': 2.24}, 'clouds': {'all': 96}, 'dt': 1740064215, 'sys': {'type': 2, 'id': 2003742, 'country': 'UA', 'sunrise': 1740027612, 'sunset': 1740065007}, 'timezone': 7200, 'id': 703448, 'name': 'Киев', 'cod': 200}
+region is not found
+Error processing task f655a75f-ece3-4434-bf11-a78aeb145698: 'not found'
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /weather/ HTTP/1.1" 200 50
+Cities to process: ['Kyiv', 'Lviv', 'London']
+Normalized Kyiv to Kyiv
+wtather: {'coord': {'lon': 30.5167, 'lat': 50.4333}, 'weather': [{'id': 804, 'main': 'Clouds', 'description': 'пасмурно', 'icon': '04d'}], 'base': 'stations', 'main': {'temp': -4.04, 'feels_like': -4.04, 'temp_min': -4.04, 'temp_max': -4.04, 'pressure': 1036, 'humidity': 70, 'sea_level': 1036, 'grnd_level': 1018}, 'visibility': 10000, 'wind': {'speed': 0.45, 'deg': 348, 'gust': 2.24}, 'clouds': {'all': 96}, 'dt': 1740064215, 'sys': {'type': 2, 'id': 2003742, 'country': 'UA', 'sunrise': 1740027612, 'sunset': 1740065007}, 'timezone': 7200, 'id': 703448, 'name': 'Киев', 'cod': 200}
+region is not found
+Error processing task 5e2f2e50-9df3-462c-9a58-64e0f9c4ebfb: 'not found'
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\convert_cont.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /weather/ HTTP/1.1" 200 50
+Cities to process: ['Kyiv', 'Lviv', 'London']
+Normalized Kyiv to Kyiv
+wtather: {'coord': {'lon': 30.5167, 'lat': 50.4333}, 'weather': [{'id': 804, 'main': 'Clouds', 'description': 'пасмурно', 'icon': '04n'}], 'base': 'stations', 'main': {'temp': -4.04, 'feels_like': -4.04, 'temp_min': -4.04, 'temp_max': -4.04, 'pressure': 1036, 'humidity': 74, 'sea_level': 1036, 'grnd_level': 1018}, 'visibility': 10000, 'wind': {'speed': 0.45, 'deg': 318, 'gust': 3.13}, 'clouds': {'all': 89}, 'dt': 1740067862, 'sys': {'type': 2, 'id': 2003742, 'country': 'UA', 'sunrise': 1740027612, 'sunset': 1740065007}, 'timezone': 7200, 'id': 703448, 'name': 'Киев', 'cod': 200}
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\convert_cont.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"POST /weather/ HTTP/1.1" 200 50
+Cities to process: ['Kyiv', 'Lviv', 'London']
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\convert_cont.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 5484
+"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+"GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+"GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+"GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+"GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 304 0
+"GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6744
+"POST /weather/ HTTP/1.1" 200 50
+Cities to process: ['Kyiv', 'Lviv', 'London']
+Normalized Kyiv to Kyiv
+wtather: {'coord': {'lon': 30.5167, 'lat': 50.4333}, 'weather': [{'id': 801, 'main': 'Clouds', 'description': 'небольшая облачность', 'icon': '02n'}], 'base': 'stations', 'main': {'temp': -8.5, 'feels_like': -11.67, 'temp_min': -8.5, 'temp_max': -8.5, 'pressure': 1038, 'humidity': 88, 'sea_level': 1038, 'grnd_level': 1021}, 'visibility': 10000, 'wind': {'speed': 1.61, 'deg': 13, 'gust': 4.95}, 'clouds': {'all': 11}, 'dt': 1740084685, 'sys': {'country': 'UA', 'sunrise': 1740027612, 'sunset': 1740065007}, 'timezone': 7200, 'id': 703448, 'name': 'Киев', 'cod': 200}
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\convert_cont.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /weather/ HTTP/1.1" 200 50
+Cities to process: ['Kyiv', 'Lviv', 'London']
+Normalized Kyiv to Kyiv
+wtather: {'coord': {'lon': 30.5167, 'lat': 50.4333}, 'weather': [{'id': 801, 'main': 'Clouds', 'description': 'небольшая облачность', 'icon': '02n'}], 'base': 'stations', 'main': {'temp': -8.5, 'feels_like': -11.67, 'temp_min': -8.5, 'temp_max': -8.5, 'pressure': 1038, 'humidity': 88, 'sea_level': 1038, 'grnd_level': 1021}, 'visibility': 10000, 'wind': {'speed': 1.61, 'deg': 13, 'gust': 4.95}, 'clouds': {'all': 11}, 'dt': 1740084685, 'sys': {'country': 'UA', 'sunrise': 1740027612, 'sunset': 1740065007}, 'timezone': 7200, 'id': 703448, 'name': 'Киев', 'cod': 200}
+Error processing task 0b0dd4d8-1958-4108-a9ee-f1c412fe60ca: 'coroutine' object has no attribute 'text'
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\convert_cont.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /weather/ HTTP/1.1" 200 50
+Cities to process: ['Kyiv', 'Lviv', 'London']
+Normalized Kyiv to Kyiv
+wtather: {'coord': {'lon': 30.5167, 'lat': 50.4333}, 'weather': [{'id': 801, 'main': 'Clouds', 'description': 'небольшая облачность', 'icon': '02n'}], 'base': 'stations', 'main': {'temp': -8.5, 'feels_like': -11.67, 'temp_min': -8.5, 'temp_max': -8.5, 'pressure': 1038, 'humidity': 88, 'sea_level': 1038, 'grnd_level': 1021}, 'visibility': 10000, 'wind': {'speed': 1.61, 'deg': 13, 'gust': 4.95}, 'clouds': {'all': 11}, 'dt': 1740084685, 'sys': {'country': 'UA', 'sunrise': 1740027612, 'sunset': 1740065007}, 'timezone': 7200, 'id': 703448, 'name': 'Киев', 'cod': 200}
+Error processing task adb6d1ce-386f-4195-8b8b-9e56b47f13f6: Input names must be coercible to list
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\convert_cont.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /weather/ HTTP/1.1" 200 50
+Cities to process: ['Kyiv', 'Lviv', 'London']
+Normalized Kyiv to Kyiv
+wtather: {'coord': {'lon': 30.5167, 'lat': 50.4333}, 'weather': [{'id': 801, 'main': 'Clouds', 'description': 'небольшая облачность', 'icon': '02n'}], 'base': 'stations', 'main': {'temp': -8.5, 'feels_like': -11.67, 'temp_min': -8.5, 'temp_max': -8.5, 'pressure': 1038, 'humidity': 88, 'sea_level': 1038, 'grnd_level': 1021}, 'visibility': 10000, 'wind': {'speed': 1.61, 'deg': 13, 'gust': 4.95}, 'clouds': {'all': 11}, 'dt': 1740084685, 'sys': {'country': 'UA', 'sunrise': 1740027612, 'sunset': 1740065007}, 'timezone': 7200, 'id': 703448, 'name': 'Киев', 'cod': 200}
+Error processing task 4c328152-8f5b-47f7-9778-e9815e30f4dc: Input names must be coercible to list
+"POST /weather/ HTTP/1.1" 200 50
+Cities to process: ['Kyiv', 'Lviv', 'London']
+Normalized Kyiv to Kyiv
+wtather: {'coord': {'lon': 30.5167, 'lat': 50.4333}, 'weather': [{'id': 801, 'main': 'Clouds', 'description': 'небольшая облачность', 'icon': '02n'}], 'base': 'stations', 'main': {'temp': -8.5, 'feels_like': -11.67, 'temp_min': -8.5, 'temp_max': -8.5, 'pressure': 1038, 'humidity': 88, 'sea_level': 1038, 'grnd_level': 1021}, 'visibility': 10000, 'wind': {'speed': 1.61, 'deg': 13, 'gust': 4.95}, 'clouds': {'all': 11}, 'dt': 1740084685, 'sys': {'country': 'UA', 'sunrise': 1740027612, 'sunset': 1740065007}, 'timezone': 7200, 'id': 703448, 'name': 'Киев', 'cod': 200}
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\convert_cont.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /weather/ HTTP/1.1" 200 50
+Processing task 870512b7-b086-402b-9608-6c701cad9084 for cities: ['Kyiv', 'Lviv', 'London']
+Error fetching weather data for Kyiv with key : 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=Kyiv&appid=&units=metric&lang=ru
+Error fetching weather data for Lviv with key : 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=Lviv&appid=&units=metric&lang=ru
+Error fetching weather data for London with key : 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=&units=metric&lang=ru
+Error processing task 870512b7-b086-402b-9608-6c701cad9084: No valid cities found!
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\convert_cont.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /weather/ HTTP/1.1" 200 50
+Cities to process: ['Kyiv', 'Lviv', 'London']
+Normalized Kyiv to Kyiv
+wtather: {'coord': {'lon': 30.5167, 'lat': 50.4333}, 'weather': [{'id': 801, 'main': 'Clouds', 'description': 'небольшая облачность', 'icon': '02n'}], 'base': 'stations', 'main': {'temp': -8.5, 'feels_like': -11.67, 'temp_min': -8.5, 'temp_max': -8.5, 'pressure': 1038, 'humidity': 88, 'sea_level': 1038, 'grnd_level': 1021}, 'visibility': 10000, 'wind': {'speed': 1.61, 'deg': 13, 'gust': 4.95}, 'clouds': {'all': 11}, 'dt': 1740085316, 'sys': {'country': 'UA', 'sunrise': 1740027612, 'sunset': 1740065007}, 'timezone': 7200, 'id': 703448, 'name': 'Киев', 'cod': 200}
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /weather/ HTTP/1.1" 200 50
+Cities to process: ['Kyiv', 'Lviv', 'London']
+Normalized Kyiv to Kyiv
+wtather: {'coord': {'lon': 30.5167, 'lat': 50.4333}, 'weather': [{'id': 801, 'main': 'Clouds', 'description': 'небольшая облачность', 'icon': '02n'}], 'base': 'stations', 'main': {'temp': -8.5, 'feels_like': -11.67, 'temp_min': -8.5, 'temp_max': -8.5, 'pressure': 1038, 'humidity': 88, 'sea_level': 1038, 'grnd_level': 1021}, 'visibility': 10000, 'wind': {'speed': 1.61, 'deg': 13, 'gust': 4.95}, 'clouds': {'all': 11}, 'dt': 1740085411, 'sys': {'country': 'UA', 'sunrise': 1740027612, 'sunset': 1740065007}, 'timezone': 7200, 'id': 703448, 'name': 'Киев', 'cod': 200}
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /weather/ HTTP/1.1" 200 50
+Cities to process: ['Kyiv', 'Lviv', 'London']
+Normalized Kyiv to Kyiv
+wtather: {'coord': {'lon': 30.5167, 'lat': 50.4333}, 'weather': [{'id': 801, 'main': 'Clouds', 'description': 'небольшая облачность', 'icon': '02n'}], 'base': 'stations', 'main': {'temp': -8.5, 'feels_like': -11.67, 'temp_min': -8.5, 'temp_max': -8.5, 'pressure': 1038, 'humidity': 88, 'sea_level': 1038, 'grnd_level': 1021}, 'visibility': 10000, 'wind': {'speed': 1.61, 'deg': 13, 'gust': 4.95}, 'clouds': {'all': 11}, 'dt': 1740085411, 'sys': {'country': 'UA', 'sunrise': 1740027612, 'sunset': 1740065007}, 'timezone': 7200, 'id': 703448, 'name': 'Киев', 'cod': 200}
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /weather/ HTTP/1.1" 200 50
+Cities to process: ['Kyiv', 'Lviv', 'London']
+Normalized Kyiv to Kyiv
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\convert_cont.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /weather/ HTTP/1.1" 200 50
+Cities to process: ['Kyiv', 'Lviv', 'London']
+Normalized Kyiv to Kyiv
+Error processing task cb2f54c7-34cc-41a6-b5aa-6d81c8e8a989: 'coroutine' object has no attribute 'text'
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\convert_cont.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /weather/ HTTP/1.1" 200 50
+Cities to process: ['Kyiv', 'Lviv', 'London']
+Normalized Kyiv to Kyiv
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\convert_cont.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /weather/ HTTP/1.1" 200 50
+Cities to process: ['Kyiv', 'Lviv', 'London']
+Normalized Kyiv to Kyiv
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\convert_cont.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /weather/ HTTP/1.1" 200 50
+Cities to process: ['Kyiv', 'Lviv', 'London']
+Normalized Kyiv to Kyiv
+Translation failed for Україна: 
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\convert_cont.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\convert_cont.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\convert_cont.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /weather/ HTTP/1.1" 200 50
+Cities to process: ['Kyiv', 'Lviv', 'London']
+Normalized Kyiv to Kyiv
+Translation failed for Україна: 'coroutine' object has no attribute 'text'
+Normalized Lviv to Lviv
+Translation failed for Україна: 'coroutine' object has no attribute 'text'
+Normalized London to London
+Translation failed for United Kingdom: 'coroutine' object has no attribute 'text'
+Saved results for not found in C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\weather_data\not found\task_f7ae9af6-82e5-47f8-8222-3fcc9897eef7.json
+Saved results for Europe in C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\weather_data\Europe\task_f7ae9af6-82e5-47f8-8222-3fcc9897eef7.json
+"POST /weather/ HTTP/1.1" 200 50
+Cities to process: ['Kyiv', 'Lviv', 'London']
+Normalized Kyiv to Kyiv
+Translation failed for Україна: 'coroutine' object has no attribute 'text'
+Normalized Lviv to Lviv
+Translation failed for Україна: 'coroutine' object has no attribute 'text'
+Normalized London to London
+Translation failed for United Kingdom: 'coroutine' object has no attribute 'text'
+Saved results for not found in C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\weather_data\not found\task_fe2120a0-5d6d-407e-ae04-b9bed3331c27.json
+Saved results for Europe in C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\weather_data\Europe\task_fe2120a0-5d6d-407e-ae04-b9bed3331c27.json
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\convert_cont.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /weather/ HTTP/1.1" 200 50
+Cities to process: ['Kyiv', 'Lviv', 'London']
+Normalized Kyiv to Kyiv
+Translation failed for Україна: 
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\convert_cont.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /weather/ HTTP/1.1" 200 50
+Cities to process: ['Kyiv', 'Lviv', 'London']
+Normalized Kyiv to Kyiv
+Normalized Lviv to Lviv
+Normalized London to London
+Error processing task a1ef98ac-ef3c-40ff-908c-da431e73da47: join() argument must be str, bytes, or os.PathLike object, not 'coroutine'
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /weather/ HTTP/1.1" 200 50
+Cities to process: ['Kyiv', 'Lviv', 'London']
+Normalized Kyiv to Kyiv
+Translated Polska to K
+Error processing task a26d59e7-35a9-49b3-88fb-dee43b5f551f: Input names must be coercible to list
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /weather/ HTTP/1.1" 200 50
+Cities to process: ['Kyiv', 'Lviv', 'London']
+Normalized Kyiv to Kyiv
+Translated Україна to Kyiv
+Error processing task 6733d2cc-760e-4fda-b208-b51124ecaea9: Input names must be coercible to list
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\convert_cont.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /weather/ HTTP/1.1" 200 50
+Cities to process: ['Kyiv', 'Lviv', 'London']
+Normalized Kyiv to Kyiv
+Translated Україна to Ukraine
+Normalized Lviv to Lviv
+Translated Україна to Ukraine
+Normalized London to London
+Translated United Kingdom to United Kingdom
+Saved results for Europe in C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\weather_data\Europe\task_7df66368-bbf0-41fa-9d32-173f197b2b48.json
+"POST /weather/ HTTP/1.1" 200 50
+Cities to process: ['Kyiv', 'Lviv', 'London']
+Normalized Kyiv to Kyiv
+Translated Україна to Ukraine
+Normalized Lviv to Lviv
+Translated Україна to Ukraine
+Normalized London to London
+Translated United Kingdom to United Kingdom
+Saved results for Europe in C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\weather_data\Europe\task_26bb4f0c-a8a9-4f89-8a35-1450e6826aff.json
+"POST /weather/ HTTP/1.1" 200 50
+Cities to process: ['Kyiv', 'Lviv', 'London']
+Normalized Kyiv to Kyiv
+Translated Україна to Ukraine
+Normalized Lviv to Lviv
+Translated Україна to Ukraine
+Normalized London to London
+Translated United Kingdom to United Kingdom
+Saved results for Europe in C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\weather_data\Europe\task_fab696f3-67e2-4b39-a08a-9ed012d2c7f3.json
+"GET /results/ HTTP/1.1" 200 5518
+"GET /results/ HTTP/1.1" 200 5518
+"GET /results/fab696f3-67e2-4b39-a08a-9ed012d2c7f3 HTTP/1.1" 301 0
+Not Found: /results/fab696f3-67e2-4b39-a08a-9ed012d2c7f3/
+"GET /results/fab696f3-67e2-4b39-a08a-9ed012d2c7f3/ HTTP/1.1" 404 5863
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /results/Europe HTTP/1.1" 301 0
+"GET /results/Europe/ HTTP/1.1" 200 6818
+"GET /tasks/fab696f3-67e2-4b39-a08a-9ed012d2c7f3 HTTP/1.1" 301 0
+"GET /tasks/fab696f3-67e2-4b39-a08a-9ed012d2c7f3/ HTTP/1.1" 200 6023
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\convert_cont.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /weather/ HTTP/1.1" 200 50
+Cities to process: ['Kyiv', 'Lviv', 'London']
+Normalized Kyiv to Kyiv
+Translated Україна to Ukraine
+Normalized Lviv to Lviv
+Translated Україна to Ukraine
+Normalized London to London
+Translated United Kingdom to United Kingdom
+Saved results for Europe in C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\weather_data\Europe\task_e1370795-91d0-49c9-b291-7ec335b4c54c.json
+"POST /weather/ HTTP/1.1" 200 50
+Cities to process: ['Kyiv', 'Lviv', 'London']
+Normalized Kyiv to Kyiv
+Translated Україна to Ukraine
+Normalized Lviv to Lviv
+Translated Україна to Ukraine
+Normalized London to London
+Translated United Kingdom to United Kingdom
+Saved results for Europe in C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\weather_data\Europe\task_17de21bb-2e08-49d9-9b4d-1443efb3f126.json
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /weather/ HTTP/1.1" 200 50
+Cities to process: ['Kyiv', 'Lviv', 'London']
+Normalized Kyiv to Kyiv
+Translated Україна to Ukraine
+Normalized Lviv to Lviv
+Translated Україна to Ukraine
+Normalized London to London
+Translated United Kingdom to United Kingdom
+Saved results for Europe in C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\weather_data\Europe\task_b3e95c8f-6c52-4dbe-bd46-682049b0519e.json
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /weather/ HTTP/1.1" 200 50
+Cities to process: ['Kyiv', 'Lviv', 'London']
+Normalized Kyiv to Kyiv
+Translated Україна to Ukraine
+Normalized Lviv to Lviv
+Translated Україна to Ukraine
+Normalized London to London
+Translated United Kingdom to United Kingdom
+Saved results for Europe in C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\weather_data\Europe\task_938503bd-8bb7-4049-8962-c6e5c7dfd0e4.json
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /weather/ HTTP/1.1" 200 50
+Cities to process: ['Kyiv', 'Lviv', 'London']
+Normalized Kyiv to Kyiv
+Translated Україна to Ukraine
+Normalized Lviv to Lviv
+Translated Україна to Ukraine
+Normalized London to London
+Translated United Kingdom to United Kingdom
+Saved results for Europe in C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\weather_data\Europe\task_77955c84-b877-4bcc-b240-58361c60e1cc.json
+Task 77955c84-b877-4bcc-b240-58361c60e1cc marked as completed
+"GET /tasks/f77955c84-b877-4bcc-b240-58361c60e1cc HTTP/1.1" 301 0
+Not Found: /tasks/f77955c84-b877-4bcc-b240-58361c60e1cc/
+"GET /tasks/f77955c84-b877-4bcc-b240-58361c60e1cc/ HTTP/1.1" 404 5801
+"GET /tasks/77955c84-b877-4bcc-b240-58361c60e1cc HTTP/1.1" 301 0
+"GET /tasks/77955c84-b877-4bcc-b240-58361c60e1cc/ HTTP/1.1" 200 6025
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /weather/ HTTP/1.1" 200 50
+Cities to process: ['Kyiv', 'Lviv', 'London']
+Normalized Kyiv to Kyiv
+Translated Україна to Ukraine
+Normalized Lviv to Lviv
+Translated Україна to Ukraine
+Normalized London to London
+Translated United Kingdom to United Kingdom
+Saved results for Europe in C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\weather_data\Europe\task_eda4116b-3bf6-4733-b69f-a128a0b73c39.json
+Task eda4116b-3bf6-4733-b69f-a128a0b73c39 marked as completed
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /weather/ HTTP/1.1" 200 50
+Cities to process: ['Kyiv', 'Lviv', 'London']
+Normalized Kyiv to Kyiv
+Translated Україна to Ukraine
+Normalized Lviv to Lviv
+Translated Україна to Ukraine
+Normalized London to London
+Translated United Kingdom to United Kingdom
+Saved results for Europe in C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\weather_data\Europe\task_fff0d203-2236-483c-906b-d653d7bb5a0d.json
+Task fff0d203-2236-483c-906b-d653d7bb5a0d marked as completed
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /weather/ HTTP/1.1" 200 50
+Cities to process: ['Kyiv', 'Lviv', 'London']
+Normalized Kyiv to Kyiv
+Translated Україна to Ukraine
+Normalized Lviv to Lviv
+Translated Україна to Ukraine
+Normalized London to London
+Translated United Kingdom to United Kingdom
+Saved results for Europe in C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\weather_data\Europe\task_4a8c0031-45f7-400f-8695-076ee4c8a762.json
+"GET /tasks/4a8c0031-45f7-400f-8695-076ee4c8a762 HTTP/1.1" 301 0
+"GET /tasks/4a8c0031-45f7-400f-8695-076ee4c8a762/ HTTP/1.1" 200 6023
+"GET /tasks/4a8c0031-45f7-400f-8695-076ee4c8a762/ HTTP/1.1" 200 6023
+"GET /tasks/4a8c0031-45f7-400f-8695-076ee4c8a762/ HTTP/1.1" 200 6023
+"GET /tasks/4a8c0031-45f7-400f-8695-076ee4c8a762/ HTTP/1.1" 200 6023
+"GET /tasks/4a8c0031-45f7-400f-8695-076ee4c8a762/ HTTP/1.1" 200 6023
+"GET /tasks/4a8c0031-45f7-400f-8695-076ee4c8a762/ HTTP/1.1" 200 6023
+Task 4a8c0031-45f7-400f-8695-076ee4c8a762 marked as completed
+"GET /tasks/4a8c0031-45f7-400f-8695-076ee4c8a762/ HTTP/1.1" 200 6025
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /weather/
+Traceback (most recent call last):
+  File "C:\Users\Данил\PycharmProjects\Test_keymakr\keymakr_venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Данил\PycharmProjects\Test_keymakr\keymakr_venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\Данил\PycharmProjects\Test_keymakr\keymakr_venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Данил\PycharmProjects\Test_keymakr\keymakr_venv\Lib\site-packages\rest_framework\response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\Данил\PycharmProjects\Test_keymakr\keymakr_venv\Lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+        data, cls=self.encoder_class,
+        indent=indent, ensure_ascii=self.ensure_ascii,
+        allow_nan=not self.strict, separators=separators
+    )
+  File "C:\Users\Данил\PycharmProjects\Test_keymakr\keymakr_venv\Lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ~~~~~~^^^^^
+  File "C:\Python313\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Python313\Lib\json\encoder.py", line 261, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\Данил\PycharmProjects\Test_keymakr\keymakr_venv\Lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+           ~~~~~~~~~~~~~~~^^^^^
+  File "C:\Python313\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+                    f'is not JSON serializable')
+TypeError: Object of type AsyncResult is not JSON serializable
+"POST /weather/ HTTP/1.1" 500 103778
+Cities to process: ['Kyiv', 'Lviv', 'London']
+Normalized Kyiv to Kyiv
+Translated Україна to Ukraine
+Normalized Lviv to Lviv
+Translated Україна to Ukraine
+Normalized London to London
+Translated United Kingdom to United Kingdom
+Saved results for Europe in C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\weather_data\Europe\task_50bf9f50-3af2-4b15-9bba-08b548f99752.json
+Task 50bf9f50-3af2-4b15-9bba-08b548f99752 marked as completed
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\views.py changed, reloading.
+Watching for file changes with StatReloader
