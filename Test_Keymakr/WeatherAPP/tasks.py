@@ -60,7 +60,7 @@ def process_weather_data(self, cities, task_id):
                 logger.error(f"Error updating task {task_id} status: {e}")
         logger.info('Results is: ',results)
         save_results(task_id, results)
-        return results
+        #return results
     except Exception as e:
         logger.error(f"Error processing task {task_id}: {e}")
         self.update_state(state="FAILED", meta={"exc": str(e)})
@@ -139,12 +139,13 @@ def save_results(task_id, results):
                 json.dump(data, f, ensure_ascii=False, indent=4)  # Ensure proper UTF-8 encoding
             logger.info(f"Saved results for {region} in {filename}")
     #time.sleep(20)
-    try:
-        task = WeatherTask.objects.get(task_id=task_id)
-        task.status = "completed"
-        task.save()
-        logger.info(f"Task {task_id} marked as completed")
-    except WeatherTask.DoesNotExist:
-        logger.error(f"Task {task_id} not found in the database")
-    except Exception as e:
-        logger.error(f"Error updating task {task_id} status: {e}")
+
+        with open(f"task_{task_id}.json") as f:
+            if f:
+                task = WeatherTask.objects.get(task_id=task_id)
+                task.status = "completed"
+                task.save()
+                logger.info(f"Task {task_id} marked as completed")
+            else:
+                logger.error(f"Task {task_id} not found in the database")
+
