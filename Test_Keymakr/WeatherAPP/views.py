@@ -1,5 +1,7 @@
 import json
+import logging
 import os
+import re
 import time
 
 from django.conf import settings
@@ -11,11 +13,9 @@ from .serializers import WeatherTaskSerializer
 from .tasks import process_weather_data
 import uuid
 
+logger = logging.getLogger('Test_Keymakr')
 
 class GetWeatherTaskViewSet(viewsets.ViewSet):
-    """
-        В'юсет для отримання даних про таски
-    """
 
     def list(self, request):
         """Получение списка всех задач."""
@@ -31,19 +31,28 @@ class GetWeatherTaskViewSet(viewsets.ViewSet):
 
 
 class PostWeatherTaskViewSet(viewsets.ViewSet):
-    """
-        В'юсет для додавання таски
-    """
 
     def create(self, request):
         task_id = uuid.uuid4()
         cities = request.data.get("city", [])
-        WeatherTask.objects.create(task_id=task_id)
-        created_task = WeatherTask.objects.get(task_id=task_id)
-        created_task.status = "running"
-        created_task.save()
-        process_weather_data.delay(cities, task_id)
-        return Response({"task_id": task_id})
+
+        # Регулярное выражение для проверки названия города (буквы, пробелы, дефисы)
+        city_pattern = re.compile(r"^[a-zA-Zа-яА-ЯёЁіІїЇєЄ\s-]+$")
+
+        for city in cities:
+            # Проверяем запрещённые города
+            if city in ['Tokyo', 'Токио', 'Токіо']:
+                return Response({"error": f"Error for {city} because of computing data for this city"})
+
+            # Проверяем корректность названия города
+            if not city_pattern.match(city):
+                return Response({"error": f"Invalid city name: {city}. Only letters, spaces, and hyphens are allowed."})
+
+        # Создаем задачу
+        WeatherTask.objects.create(task_id=task_id, status="running")
+        process_weather_data.delay(cities, str(task_id))
+
+        return Response({"task_id": str(task_id)})
 
 
 class WeatherResultsViewSet(viewsets.ViewSet):
@@ -52,17 +61,56 @@ class WeatherResultsViewSet(viewsets.ViewSet):
     """
 
     def list(self, request):
-        """Возвращает список доступных регионов с данными."""
+        results = {}
+        failed_results = []
+        task_status = "failed"  # Изначально предполагаем статус "failed"
+
         base_path = os.path.join(settings.BASE_DIR, "weather_data")
         if not os.path.exists(base_path):
-            return Response({"regions": []})
+            return Response({"status": task_status, "results": {}})
 
+        # Получаем список регионов
         regions = [
             region for region in os.listdir(base_path)
             if os.path.isdir(os.path.join(base_path, region))
         ]
-        return Response({"regions": regions})
+        tasks = WeatherTask.objects.filter(status="failed")
+        for t in tasks:
+            failed_results.append(t.result)
 
+
+        # Если задача завершилась с ошибкой, возвращаем пустой объект results
+
+
+        # Собираем данные по регионам
+        for region in regions:
+            region_dir = os.path.join(base_path, region)
+            region_files = [
+                file for file in os.listdir(region_dir)
+                if file.endswith(".json")
+            ]
+            cities_data = []
+
+            for file in region_files:
+                # Чтение данных из файла города
+                file_path = os.path.join(region_dir, file)
+                try:
+                    with open(file_path, "r", encoding="utf-8") as f:
+                        city_data = json.load(f)
+                        cities_data.extend(city_data)  # Добавляем данные всех городов
+                except Exception as e:
+                    logger.error(f"Error reading file {file_path}: {e}")
+                    continue
+
+            # Составляем результат для каждого региона
+            results[region] = cities_data
+
+        return Response({
+            "status_done": "completed",
+            "results_done": results,
+            "status_not_done":"failed",
+            "results_not_done": failed_results,
+        })
     def retrieve(self, request, pk=None):
         """Возвращает список городов и их данных для указанного региона."""
         region = pk
@@ -74,7 +122,7 @@ class WeatherResultsViewSet(viewsets.ViewSet):
         results = []
         for filename in os.listdir(file_path):
             if filename.endswith(".json"):
-                with open(os.path.join(file_path, filename), "r") as f:
+                with open(os.path.join(file_path, filename), "r", encoding='utf-8') as f:
                     data = json.load(f)
                     results.extend(data)
 

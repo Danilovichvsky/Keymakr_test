@@ -4,6 +4,7 @@ from geopy.geocoders import Nominatim
 import country_converter as coco
 import deepl
 import logging
+
 load_dotenv(dotenv_path=r"C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\local_data.env")
 logger = logging.getLogger('Test_Keymakr')
 
@@ -34,15 +35,9 @@ def main_convert(city):
     region_country_dict = {}
     translator = deepl.Translator(DEEPL_API_KEY)
 
-    # Словарь для перевода городов на английский
-    city_translation_dict = {
-        "Киев": "Kyiv",
-        "Токио": "Tokyo",
-        # Добавьте другие города по необходимости
-    }
 
     # Переводим название города на английский (если есть в словаре)
-    translated_city = city_translation_dict.get(city, city)
+    translated_city = translator.translate_text(city, source_lang="UK", target_lang="EN-US")
 
     # Получаем страну для города
     country = get_country(translated_city)
@@ -51,13 +46,11 @@ def main_convert(city):
         return region_country_dict  # Возвращаем пустой словарь, если страна не найдена
 
     try:
-        # Переводим название страны на английский
         translated_country = translator.translate_text(country, source_lang="UK", target_lang="EN-US")
         translated_country_name = translated_country.text  # Извлекаем текст перевода
         logger.info(f"Translated {country} to {translated_country_name}")
     except Exception as e:
         logger.error(f"Translation failed for {country}: {e}")
-        # Используем оригинальное название страны, если перевод не удался
         translated_country_name = country
 
     # Получаем континент для переведенной страны
@@ -71,26 +64,5 @@ def main_convert(city):
     })
 
     return region_country_dict
-
-if __name__=='__main__':
-    """
-    Test 
-    """
-    try:
-        tokyo_country = get_country("Київ")
-        tokyo_cont = get_continent_by_country(tokyo_country)
-        print(tokyo_cont)
-    except Exception as e:
-        print(e)
-    DEEPL_API_KEY = os.getenv("DEEPL_API_KEY")
-    print(os.getenv("DEEPL_API_KEY"))
-    if not DEEPL_API_KEY:
-        raise ValueError("API-ключ DeepL не найден в переменных окружения")
-
-    translator = deepl.Translator(DEEPL_API_KEY)
-
-    translated_country = translator.translate_text("Україна", source_lang="UK", target_lang="EN-US")
-    print(translated_country)
-
 
 

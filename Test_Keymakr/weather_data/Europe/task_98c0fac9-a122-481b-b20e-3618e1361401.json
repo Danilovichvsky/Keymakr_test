@@ -1,0 +1,12 @@
+[
+    {
+        "city": "Kyiv",
+        "temperature": -10.16,
+        "description": "ясно"
+    },
+    {
+        "city": "London",
+        "temperature": 11.7,
+        "description": "небольшой дождь"
+    }
+]
