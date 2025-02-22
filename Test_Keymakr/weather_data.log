@@ -350,3 +350,45 @@ C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\convert_cont
 Watching for file changes with StatReloader
 C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\convert_cont.py changed, reloading.
 Watching for file changes with StatReloader
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\Test_Keymakr\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /weather/ HTTP/1.1" 200 50
+Cities to process: ['Киев', 'Londn', 'New York', 'Джакарта', 'Bangkok']
+Normalized Киев to Kyiv
+Translated Україна to Ukraine
+Normalized Londn to London
+Translated United Kingdom to United Kingdom
+Normalized New York to New York
+Translated United States to United States
+"GET /results/ HTTP/1.1" 200 11775
+Normalized Джакарта to Jakarta
+Translated Indonesia to Indonesia
+Normalized Bangkok to Bangkok
+Task b8794e6b-761e-42ff-b5b4-feaba3cef39c marked as failed
+Error classifying region for Bangkok
+Task b8794e6b-761e-42ff-b5b4-feaba3cef39c marked as failed with error: Error classifying region for Bangkok
+"GET /results/ HTTP/1.1" 200 13137
+C:\Users\Данил\PycharmProjects\Test_keymakr\Test_Keymakr\WeatherAPP\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /weather/ HTTP/1.1" 200 50
+Cities to process: ['Киев', 'Londn', 'New York', 'Джакарта', 'Tokyo']
+Normalized Киев to Kyiv
+Translated Україна to Ukraine
+Normalized Londn to London
+Translated United Kingdom to United Kingdom
+"GET /results/ HTTP/1.1" 200 13137
+Normalized New York to New York
+Translated United States to United States
+"GET /results/ HTTP/1.1" 200 13137
+Normalized Джакарта to Jakarta
+"GET /results/ HTTP/1.1" 200 13137
+Translated Indonesia to Indonesia
+"GET /results/ HTTP/1.1" 200 13137
+"GET /results/ HTTP/1.1" 200 13137
+Normalized Tokyo to Tokyo
+Task 54ccf75a-1c9d-454d-a330-7c3cd03d0a67 marked as failed
+Error classifying region for Tokyo
+Task 54ccf75a-1c9d-454d-a330-7c3cd03d0a67 marked as failed with error: Error classifying region for Tokyo
+"GET /results/ HTTP/1.1" 200 14497

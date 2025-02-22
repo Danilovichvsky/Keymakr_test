@@ -1,6 +1,5 @@
 import logging
 import re
-from django.conf import settings
 from rest_framework import views, viewsets
 from rest_framework.generics import get_object_or_404
 from rest_framework.response import Response
@@ -43,10 +42,6 @@ class PostWeatherTaskViewSet(viewsets.ViewSet):
         city_pattern = re.compile(r"^[a-zA-Zа-яА-ЯёЁіІїЇєЄ\s-]+$")
 
         for city in cities:
-            # Проверяем запрещённые города
-            if city in ['Tokyo', 'Токио', 'Токіо']:
-                return Response({"error": f"Error for {city} because of computing data for this city"})
-
             # Проверяем корректность названия города
             if not city_pattern.match(city):
                 return Response({"error": f"Invalid city name: {city}. Only letters, spaces, and hyphens are allowed."})
