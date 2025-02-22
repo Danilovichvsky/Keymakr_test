@@ -1,9 +1,5 @@
-import json
 import logging
-import os
 import re
-import time
-
 from django.conf import settings
 from rest_framework import views, viewsets
 from rest_framework.generics import get_object_or_404
@@ -15,7 +11,11 @@ import uuid
 
 logger = logging.getLogger('Test_Keymakr')
 
+
 class GetWeatherTaskViewSet(viewsets.ViewSet):
+    """
+    Viewset to get all or a specific task.
+    """
 
     def list(self, request):
         """Получение списка всех задач."""
@@ -31,6 +31,9 @@ class GetWeatherTaskViewSet(viewsets.ViewSet):
 
 
 class PostWeatherTaskViewSet(viewsets.ViewSet):
+    """
+    Viewset for sending cities to get data about the region and weather.
+    """
 
     def create(self, request):
         task_id = uuid.uuid4()
@@ -57,73 +60,57 @@ class PostWeatherTaskViewSet(viewsets.ViewSet):
 
 class WeatherResultsViewSet(viewsets.ViewSet):
     """
-    Вьюсет для получения результатов обработки погоды по регионам.
+    Viewset for obtaining weather processing results by region and for getting all data with all regions.
     """
 
     def list(self, request):
-        results = {}
+        completed_results = []
         failed_results = []
-        task_status = "failed"  # Изначально предполагаем статус "failed"
 
-        base_path = os.path.join(settings.BASE_DIR, "weather_data")
-        if not os.path.exists(base_path):
-            return Response({"status": task_status, "results": {}})
-
-        # Получаем список регионов
-        regions = [
-            region for region in os.listdir(base_path)
-            if os.path.isdir(os.path.join(base_path, region))
-        ]
-        tasks = WeatherTask.objects.filter(status="failed")
-        for t in tasks:
+        ftasks = WeatherTask.objects.filter(status="failed")
+        for t in ftasks:
             failed_results.append(t.result)
 
-
-        # Если задача завершилась с ошибкой, возвращаем пустой объект results
-
-
-        # Собираем данные по регионам
-        for region in regions:
-            region_dir = os.path.join(base_path, region)
-            region_files = [
-                file for file in os.listdir(region_dir)
-                if file.endswith(".json")
-            ]
-            cities_data = []
-
-            for file in region_files:
-                # Чтение данных из файла города
-                file_path = os.path.join(region_dir, file)
-                try:
-                    with open(file_path, "r", encoding="utf-8") as f:
-                        city_data = json.load(f)
-                        cities_data.extend(city_data)  # Добавляем данные всех городов
-                except Exception as e:
-                    logger.error(f"Error reading file {file_path}: {e}")
-                    continue
-
-            # Составляем результат для каждого региона
-            results[region] = cities_data
+        ctasks = WeatherTask.objects.filter(status="completed")
+        for t in ctasks:
+            completed_results.append(t.result)
 
         return Response({
             "status_done": "completed",
-            "results_done": results,
-            "status_not_done":"failed",
+            "results_done": completed_results,
+            "status_not_done": "failed",
             "results_not_done": failed_results,
         })
+
     def retrieve(self, request, pk=None):
+        completed_results = []
+        path_with_regions = []
         """Возвращает список городов и их данных для указанного региона."""
         region = pk
-        file_path = os.path.join(settings.BASE_DIR, f"weather_data/{region}")
+        ctasks = WeatherTask.objects.filter(status="completed")
 
-        if not os.path.exists(file_path):
-            return Response({"error": "Регион не найден или нет данных"}, status=404)
+        for t in ctasks:
+            if t.result and "results" in t.result:
+                if region in t.result["results"]:  #
+                    completed_results.extend(t.result["results"][region])
+                else:
+                    logger.error(f"The region '{region}' not found in task {t.task_id}")
 
-        results = []
-        for filename in os.listdir(file_path):
-            if filename.endswith(".json"):
-                with open(os.path.join(file_path, filename), "r", encoding='utf-8') as f:
-                    data = json.load(f)
-                    results.extend(data)
+            if t.result and "file_path" in t.result:
+                file_path = t.result["file_path"]
+                if isinstance(file_path, list):
+                    for path in file_path:
+                        if region in path:
+                            path_with_regions.append(path)
+                elif isinstance(file_path, str):
+                    if region in file_path:
+                        path_with_regions.append(file_path)
 
-        return Response({"region": region, "cities": results})
+        if not completed_results:
+            logger.error(f"No data found for region '{region}'")
+
+        return Response({
+            "region": region,
+            "cities": completed_results,
+            "path": path_with_regions
+        })

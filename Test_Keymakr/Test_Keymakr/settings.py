@@ -114,6 +114,11 @@ LOGGING = {
             'level': 'INFO',
             'propagate': True,
         },
+        'WeatherAPP': {  # Добавляем логгер для вашего приложения
+            'handlers': ['console', 'file'],
+            'level': 'INFO',
+            'propagate': True,
+        },
     },
 }
 

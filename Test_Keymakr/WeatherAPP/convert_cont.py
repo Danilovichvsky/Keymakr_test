@@ -10,6 +10,9 @@ logger = logging.getLogger('Test_Keymakr')
 
 DEEPL_API_KEY = os.getenv("DEEPL_API_KEY")
 def get_country(city):
+    """
+    Function to get country by city.
+    """
     geolocator = Nominatim(user_agent="test_work")
     location = geolocator.geocode(city, exactly_one=True)
 
@@ -28,10 +31,16 @@ def get_country(city):
 
 
 def get_continent_by_country(country_name):
+    """
+    Function to get continent (region) by country.
+    """
     return coco.convert(names=country_name, to='continent') or "Unknown"
 
 
 def main_convert(city):
+    """
+    Main function to convert city to continent.
+    """
     region_country_dict = {}
     translator = deepl.Translator(DEEPL_API_KEY)
 

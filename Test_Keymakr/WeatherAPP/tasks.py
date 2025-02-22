@@ -23,7 +23,7 @@ DEEPL_API_KEY = os.getenv("DEEPL_API_KEY")
 def process_weather_data(self, cities, task_id):
     logger.info("Cities to process: %s", cities)
     results = {}
-    error_info = None  # Для хранения информации об ошибке
+    error_info = None
 
     try:
         task = WeatherTask.objects.get(task_id=task_id)
@@ -32,35 +32,40 @@ def process_weather_data(self, cities, task_id):
             if not normalized_city:
                 error_info = f"Error with normalization for {city}"
                 logger.error(error_info)
-                continue  # Пропускаем город, но продолжаем обработку остальных
+                continue
 
             weather_data = fetch_weather_data(normalized_city)
             if not weather_data or not validate_weather_data(weather_data):
                 error_info = f"Error with validation or fetching weather data for {city}"
                 logger.error(error_info)
-                continue  # Пропускаем город, но продолжаем обработку остальных
+                continue
 
             region = classify_region(normalized_city, task_id)
             if not region:
                 task.status = "failed"
                 error_info = f"Error classifying region for {city}"
                 logger.error(error_info)
-                continue  # Пропускаем город, но продолжаем обработку остальных
+                continue
 
             if region not in results:
                 results[region] = []
+            translator = deepl.Translator(DEEPL_API_KEY)
+
+            # Переводим название города на английский (если есть в словаре)
+            translated_description = translator.translate_text(str(weather_data["condition"].get("description", "N/A")),
+                                                               source_lang="UK", target_lang="EN-US").text
             results[region].append({
                 "city": normalized_city,
                 "temperature": weather_data["temp_c"],
-                "description": weather_data["condition"].get("description", "N/A")
+                "description": translated_description
             })
 
         if error_info:
             task.status = "failed"
             task.result = {
-                "results": results,  # Все успешно обработанные данные
-                "error": error_info,  # Информация об ошибке
-                "failed_task_id": task_id  # ID задачи, которая завершилась с ошибкой
+                "results": results,
+                "error": error_info,
+                "failed_task_id": task_id
             }
             task.save()
             logger.info(f"Task {task_id} marked as failed with error: {error_info}")
@@ -85,9 +90,9 @@ def process_weather_data(self, cities, task_id):
         logger.error(f"Error processing task {task_id}: {e}")
         task.status = "failed"
         task.result = {
-            "results": results,  # Все успешно обработанные данные
-            "error": str(e),  # Информация об ошибке
-            "failed_task_id": task_id  # ID задачи, которая завершилась с ошибкой
+            "results": results,
+            "error": str(e),
+            "failed_task_id": task_id
         }
         task.save()
         return {"status": "failed", "results": results, "error": str(e), "failed_task_id": task_id}
@@ -184,13 +189,16 @@ def save_results(task_id, results):
             logger.info(f"Saved results for {region} in {filename}")
             file_paths.append(filename)
 
-    # Если пути существуют, обновляем задачу
+
     if file_paths:
         try:
             task = WeatherTask.objects.get(task_id=task_id)
             if not task.status == "failed":
+                task.result = {
+                    "results": results,  # Все успешно обработанные данные
+                }
                 task.status = "completed"
-                task.result = file_paths  # Устанавливаем пути в поле result
+                task.result["file_path"] = file_paths  # Устанавливаем пути в поле result
                 task.save()  # Сохраняем задачу в базе данных
                 logger.info(f"Task {task_id} marked as completed with results saved at: {file_paths}")
         except WeatherTask.DoesNotExist:
